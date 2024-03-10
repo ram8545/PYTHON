@@ -13,6 +13,8 @@ import sys
 # The function accepts 2D_INTEGER_ARRAY arr as parameter.
 #
 
+# The left-to-right diagonal = 1 + 5 + 9 = 15. The right to left diagonal = 3 + 5 + 9 = 17 . Their absolute difference is 15 - 17 = 2.
+
 def diagonalDifference(arr):
     # Write your code here
     primary_sum = 0
